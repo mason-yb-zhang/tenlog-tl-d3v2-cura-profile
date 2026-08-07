@@ -125,3 +125,39 @@ definitions, build plate model, and matching material profiles.
 The files retain their upstream licenses and copyright notices, if any. This
 repository does not relicense the upstream Tenlog resources or claim ownership
 of their copyrights.
+
+## 参考资料包 | Reference Package
+
+`reference-package/` 保留了 Tenlog 双喷头打印机原始资料包的目录结构，
+用于保存说明书、调试资料、测试模型、测试 G-code、打印机 STL、Cura
+资源、Wi-Fi 资料和联机打印工具。
+
+The `reference-package/` directory preserves the original directory structure
+of the Tenlog dual-extruder printer package. It contains manuals, debugging
+documents, test models, test G-code, printer STL files, Cura resources, Wi-Fi
+documentation, and online-printing tools.
+
+资料包中上传了 63 个文件。为避免上传大型安装介质和视频，以下文件被
+明确排除：
+
+The package includes 63 uploaded files. The following files are intentionally
+excluded to avoid distributing large installation media and videos:
+
+- `3.cura切片软件安装及使用/2.Ultimaker/Ultimaker-Cura-5.1.0-win64.exe`
+- 根目录下的 3 个 `.mp4` 视频文件 / The three `.mp4` videos in the package root
+
+其他安装程序没有被排除，包括 CH340 串口驱动和 Repetier-Host 工具。
+
+Other installers were not excluded, including the CH340 serial driver and the
+Repetier-Host tool.
+
+### 资料包目录 | Package Contents
+
+- `2.安装教程/`：整机安装指导书 / Printer assembly manual
+- `3.cura切片软件安装及使用/`：Cura 文档、驱动和 Tenlog 配置资源 / Cura documentation, driver, and Tenlog resources
+- `4.机器调试/`：设备调试、平台调平和平台调试说明 / Machine setup and bed-leveling documents
+- `5.测试打印文件/`：喷头距离、单头、双色、复制、镜像和支撑测试 / Nozzle-distance, single-extruder, dual-color, duplicate, mirror, and support tests
+- `6.常见问题/`：常见打印问题说明 / Common printing issue documentation
+- `7.STL/`：配套 STL 文件 / Related STL files
+- `8.联机打印/`：Repetier-Host 工具和使用说明 / Repetier-Host tool and instructions
+- `9wifi/`：Wi-Fi 模块使用说明 / Wi-Fi module instructions
